@@ -1,0 +1,3 @@
+- for this task, I used a linked list to represent a blockChain.
+- the time complexity for adding the block is O(1) because in a linked list we keep a pointer to the tail where we'll append the new block so no need to traverse the whole blocks so adding a new block happens in a constant time.
+- but the space complexity is O(n) because it depends on the number of the blocks in the block chain.
