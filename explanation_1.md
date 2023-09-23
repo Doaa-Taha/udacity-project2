@@ -1,0 +1,4 @@
+- for this task I used a queue because queues are first in first out.
+- the first item represents the least used data which will be the next item to be removed if the cache capacity is full.
+- I used a dictionary to represent the cache memory because the time complexity for adding and removing an item is O(1).
+- The space complexity is O(n) where n is the number of items in the cache but we keep it small by determining a maximum capacity for the cache.
